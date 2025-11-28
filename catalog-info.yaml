@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flask-micro
+  description: Flask microservice with built-in security checks
+  annotations:
+    github.com/project-slug: /
+spec:
+  type: service
+  owner: team-a
+  lifecycle: experimental
